@@ -366,7 +366,7 @@
             right: auto;
             width: 280px;
             height: 100vh;
-            background: #111;
+            background: linear-gradient(180deg, var(--bg-deep), var(--bg-panel));
             padding-top: 120px;
             transition: left .45s ease;
             z-index: 99998;
@@ -400,6 +400,7 @@
             font-size: 16px;
 
             transition: 0.3s;
+  font-family: AvenirNext;
         }
 
         .mobile-navbar a:hover {
@@ -508,7 +509,7 @@
         }
 
         .projects_gravityBgProj__2dMtC {
-            height: 650px;
+            height: 400px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -536,6 +537,25 @@
             }
 
         }
+        .footer-quick-links-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, auto);
+    column-gap: 0px;
+    row-gap: 8px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-logo{
+    height: 60px;
+    width: 130px;
+    margin-bottom: 1rem;
+}
+
+#ssk-country-code option {
+    background-color: black;
+}
     </style>
 </head>
 
@@ -671,15 +691,23 @@
             <div class="d-md-block d-none projects_projectHeader__cIvot">
                 <div class="container">
                     <ul class=" projects_projectHeaderScroll__exmrM">
-                        <li class=" undefined"><a>About</a></li>
-                        <li class=" undefined"><a>Assets</a></li>
-                        <li class=" undefined"><a>Highlights</a></li>
-                        <li class=" undefined"><a>Pricing</a></li>
-                        <li class=" undefined"><a>Layout</a></li>
-                        <li class=" undefined"><a>Amenities</a></li>
-                        <li class=" undefined"><a>Gallery</a></li>
-                        <li class=" undefined"><a>Location</a></li>
-                        <li class=" undefined"><a>FAQ's</a></li>
+                        <li><a href="#aboutSection">About</a></li>
+
+                        <li><a href="#assetsSection">Assets</a></li>
+
+                        <li><a href="#highlightsSection">Highlights</a></li>
+
+                        <li><a href="#pricingSection">Pricing</a></li>
+
+                        <li><a href="#layoutSection">Layout</a></li>
+
+                        <li><a href="#amenitiesSection">Amenities</a></li>
+
+                        <li><a href="#gallerySection">Gallery</a></li>
+
+                        <li><a href="#locationSection">Location</a></li>
+
+                        <li><a href="#faqsSection">FAQ's</a></li>
                     </ul>
                 </div>
             </div>
@@ -716,13 +744,16 @@
                                     <div class=" projects_aboutHighlightedAdr__JD6XC"><span>Gravity Smera Gardens, Off
                                             Hosur Road,</span><span>Manchanahalli Village, Attibele
                                             Hobli,</span><span>Anekal Taluk, Bangalore Urban District</span></div>
-                                    <div class=" undefined"><span><svg width="24" height="25" viewBox="0 0 24 25"
-                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- <div class=" undefined"><span>
+                                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
                                                 <path
                                                     d="M20.9984 15.6153L15.7284 15.0053L13.2084 17.5253C10.3696 16.0815 8.06222 13.7741 6.61844 10.9353L9.14844 8.40527L8.53844 3.15527H3.02844C2.44844 13.3353 10.8184 21.7053 20.9984 21.1253V15.6153Z"
                                                     fill="#17574B"></path>
-                                            </svg></span></div>
-                                    <div class=" projects_aboutHighlightedNum__eX62H"><span>+91 9739011616</span></div>
+                                            </svg></span>
+                                    </div>
+                                    <div class=" projects_aboutHighlightedNum__eX62H"><span>+91 9739011616</span>
+                                    </div> -->
                                 </div>
                             </div>
                             <div class="col-lg-7 col-md-6 col-sm-12">
@@ -1028,7 +1059,7 @@
                 </div>
                 <div class=" undefined undefined" id="amenitiesSection">
                     <div class="spacer-4"></div>
-                    <div class="container">
+                    <div class="container" style="max-width: 1050px;">
                         <div class="justify-content-center row">
                             <div class="col-md-12">
                                 <h2
@@ -1591,13 +1622,13 @@
         </div>
         <footer>
             <div class="footer-grid">
-
                 <!-- Brand / Address column -->
                 <div class="info-col">
-                    <svg class="brand-arch" viewBox="0 0 120 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- <svg class="brand-arch" viewBox="0 0 120 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M6 30C6 14 24 6 60 6C96 6 114 14 114 30" stroke="#f3efe6" stroke-width="2" />
-                    </svg>
-                    <p class="brand-logo">GRAVITY<span>HOMES</span></p>
+                    </svg> -->
+                    <!-- <p class="brand-logo">GRAVITY<span>HOMES</span></p> -->
+                     <img src="images/gravity_homes_whites.webp" alt="" class="footer-logo">
                     <p class="tagline">Inspired by nature, built for you</p>
 
                     <div class="info-row">
@@ -1605,25 +1636,25 @@
                             <path d="M12 21s7-7.2 7-12a7 7 0 10-14 0c0 4.8 7 12 7 12z" />
                             <circle cx="12" cy="9" r="2.5" />
                         </svg>
-                        <span>Gravity Homes, #235/12, Suraj Center, 2nd Floor, 27th Cross Rd, 7th Block, Jayanagar,
-                            Bengaluru, Karnataka 560070</span>
+                        <span>Gravity Homes, #235/12, Suraj Center, 2nd Floor, 27th Cross Rd,
+                            7th Block, Jayanagar, Bengaluru, Karnataka 560070</span>
+                    </div>
+                    <!-- <div class="info-row">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path
+                                d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.3 1.8.6 2.7a2 2 0 01-.4 2.1L8 9.9a16 16 0 006 6l1.4-1.4a2 2 0 012.1-.4c.9.3 1.8.5 2.7.6a2 2 0 011.8 2z" />
+                        </svg>
+                        <a href="tel:+919513145554">+91 95131 45554</a>
                     </div>
                     <div class="info-row">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path
                                 d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.3 1.8.6 2.7a2 2 0 01-.4 2.1L8 9.9a16 16 0 006 6l1.4-1.4a2 2 0 012.1-.4c.9.3 1.8.5 2.7.6a2 2 0 011.8 2z" />
                         </svg>
-                        <a href="tel:+919513145554">(+91) 95131 45554</a>
-                    </div>
-                    <div class="info-row">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path
-                                d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.3 1.8.6 2.7a2 2 0 01-.4 2.1L8 9.9a16 16 0 006 6l1.4-1.4a2 2 0 012.1-.4c.9.3 1.8.5 2.7.6a2 2 0 011.8 2z" />
-                        </svg>
-                        <a href="tel:+919739011616">(+91) 97390 11616</a>
-                    </div>
+                        <a href="tel:+919739011616">+91 97390 11616</a>
+                    </div> -->
 
-                    <a class="find-map" href="#" aria-label="Find us on map">
+                    <a class="find-map" href="https://maps.app.goo.gl/HZVdBrpw5o3Ebb387" aria-label="Find us on map" target="_blank">
                         Find Us On Map
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M5 12h14M13 6l6 6-6 6" />
@@ -1634,13 +1665,16 @@
                 <!-- Quick links column -->
                 <div class="links-col">
                     <h3>Quick Menu</h3>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Living</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
+                    <ul class="footer-quick-links-wrapper">
+                        <li><a href="#aboutSection">About</a></li>
+                        <li><a href="#assetsSection">Assets</a></li>
+                        <li><a href="#highlightsSection">Highlights</a></li>
+                        <li><a href="#pricingSection">Pricing</a></li>
+                        <li><a href="#layoutSection">Layout</a></li>
+                        <li><a href="#amenitiesSection">Amenities</a></li>
+                        <li><a href="#gallerySection">Gallery</a></li>
+                        <li><a href="#locationSection">Location</a></li>
+                        <li><a href="#faqsSection">FAQ's</a></li>
                     </ul>
                 </div>
 
@@ -1672,21 +1706,21 @@
                         <div class="submit-row">
                             <button class="btn-submit" type="submit" id="sskSubmitBtn">Get In Touch</button>
                             <div class="social-icons">
-                                <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor">
+                                <a href="https://www.youtube.com/@GravityHomes" target="_blank" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor">
                                         <path
                                             d="M23.5 6.2a3 3 0 00-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 00.5 6.2 31 31 0 000 12a31 31 0 00.5 5.8 3 3 0 002.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 002.1-2.1A31 31 0 0024 12a31 31 0 00-.5-5.8zM9.6 15.5V8.5L15.8 12z" />
                                     </svg></a>
-                                <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none"
+                                <a href="https://www.instagram.com/gravityhomesin/" target="_blank" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none"
                                         stroke="currentColor" stroke-width="2">
                                         <rect x="3" y="3" width="18" height="18" rx="5" />
                                         <circle cx="12" cy="12" r="4" />
                                         <circle cx="17.5" cy="6.5" r="1" />
                                     </svg></a>
-                                <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor">
+                                <a href="https://www.linkedin.com/company/gravity-homes/" target="_blank" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor">
                                         <path
                                             d="M4.98 3.5a2.5 2.5 0 11.02 5 2.5 2.5 0 01-.02-5zM3 8.98h4v12.02H3zM9 8.98h3.8v1.64h.05c.53-1 1.83-2.06 3.76-2.06 4.02 0 4.76 2.65 4.76 6.1v6.34h-4v-5.62c0-1.34-.02-3.06-1.87-3.06-1.87 0-2.16 1.46-2.16 2.96v5.72H9z" />
                                     </svg></a>
-                                <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor">
+                                <a href="https://www.facebook.com/GravityHomes/" target="_blank" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor">
                                         <path
                                             d="M13.5 22v-8.4h2.8l.4-3.3h-3.2V8.1c0-.95.27-1.6 1.63-1.6H17V3.5c-.3-.04-1.3-.13-2.5-.13-2.5 0-4.2 1.5-4.2 4.3v2.6H7.5v3.3h2.8V22z" />
                                     </svg></a>
@@ -1694,10 +1728,7 @@
                         </div>
                     </form>
                 </div>
-
             </div>
-
-
             <script>
                 document.getElementById("footerForm").addEventListener("submit", async function (e) {
                     e.preventDefault();
@@ -1721,7 +1752,7 @@
                     submitBtn.innerHTML = "Sending...";
 
                     try {
-                        const response = await fetch("https://emailjsfuntions-428145106157.asia-south1.run.app/gravity-smera-footer-form", {
+                        const response = await fetch("https://emailjsfuntions-428145106157.asia-south1.run.app/gravity-aranya-footer-form", {
                             method: "POST",
                             headers: { "Content-Type": "application/json" },
                             body: JSON.stringify(payload)
@@ -1746,8 +1777,8 @@
             </script>
 
             <div class="footer-bottom">
-                &copy; 2026 Official Website of Gravity Homes. We are committed to protecting and processing your
-                personal data responsibly.
+                &copy; 2026 Official Website of Gravity Homes. We are committed to
+                protecting and processing your personal data responsibly.
             </div>
         </footer>
         <script
