@@ -11659,37 +11659,37 @@ fieldset:disabled .btn {
   }
 }
 @font-face {
-  font-family: Cora;
+  font-family: AvenirNext;
   src: url(/_next/static/media/Cora\ Regular.0f8e769c.otf) format("opentype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: Cora;
+  font-family: AvenirNext;
   src: url(/_next/static/media/Cora\ Medium.1cfa9de6.otf) format("opentype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: Cora;
+  font-family: AvenirNext;
   src: url("../fonts/Cora%20Medium%20Italic.dd30f084.otf") format("opentype");
   font-weight: 500;
   font-style: italic;
 }
 @font-face {
-  font-family: Cora;
+  font-family: AvenirNext;
   src: url(/_next/static/media/Cora\ Italic.d74d2fcc.otf) format("opentype");
   font-weight: 400;
   font-style: italic;
 }
 @font-face {
-  font-family: Cora;
+  font-family: AvenirNext;
   src: url(/_next/static/media/Cora\ Bold.beefd137.otf) format("opentype");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
-  font-family: Cora;
+  font-family: AvenirNext;
   src: url("../fonts/Cora%20Bold%20Italic.cfdcaf6e.otf") format("opentype");
   font-weight: 600;
   font-style: italic;
@@ -11730,7 +11730,7 @@ html {
   overflow-x: hidden;
 }
 body {
-  font-family: Cora;
+  font-family: AvenirNext;
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.3125rem;
@@ -11949,7 +11949,7 @@ nav.fixed-top.nav-fixed {
   color: #fff;
   margin-bottom: 0;
   text-align: right;
-  font-family: Cora;
+  font-family: AvenirNext;
 }
 .nav-form-offCanvas h3 > span {
   font-size: 40px;
@@ -12277,7 +12277,7 @@ nav.fixed-top.nav-fixed {
   font-style: normal;
   font-weight: 400;
   color: #121212;
-  font-family: Cora;
+  font-family: AvenirNext;
 }
 .gravity-head-center h6.faqs-head.text_bold > span {
   font-size: 28px;
@@ -13608,7 +13608,7 @@ body .swiper-pagination-bullet-active {
   letter-spacing: 6px;
   text-transform: uppercase;
   margin-bottom: 24px;
-  font-family: Cora;
+  font-family: AvenirNext;
 }
 .contact-banner .gravity-head-center p {
   font-size: 16px;
@@ -13665,7 +13665,7 @@ body .swiper-pagination-bullet-active {
   font-family: AvenirNext;
 }
 .flex-col-contact h6 {
-  font-family: Cora;
+  font-family: AvenirNext;
   font-size: 28px;
   color: #fff;
   font-weight: 400;
@@ -14465,7 +14465,7 @@ body .swiper-pagination-bullet-active {
   justify-content: center;
 }
 .location-lists-card h6 {
-  font-family: Cora;
+  font-family: AvenirNext;
   font-size: 28px;
   color: #17574b;
   font-weight: 500;
@@ -14881,7 +14881,7 @@ body .swiper-pagination-bullet-active {
     font-feature-settings: "smcp";
     font-variant: small-caps;
     letter-spacing: 0.7px;
-    font-family: Cora;
+    font-family: AvenirNext;
     padding: 0;
   }
   .nav-form-offCanvas .explore-all-head {
@@ -15657,7 +15657,7 @@ body .swiper-pagination-bullet-active {
     font-feature-settings: "smcp";
     font-variant: small-caps;
     letter-spacing: 0.7px;
-    font-family: Cora;
+    font-family: AvenirNext;
     text-align: center;
   }
   .p-xs-0 {
